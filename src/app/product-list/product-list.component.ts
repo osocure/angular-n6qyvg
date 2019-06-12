@@ -18,6 +18,14 @@ export class ProductListComponent {
     window.alert("El producto fue compartido");
   }
 
+   onNotify() {
+    window.alert('You will be notified when the product goes on sale');
+  }
+
+   onFa() {
+    window.alert('Faaaaa !!!');
+  }
+
 }
 
 
