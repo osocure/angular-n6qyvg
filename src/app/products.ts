@@ -14,6 +14,12 @@ export const products = [
     price: 299,
     description: 'Una porqueria'
   }
+  ,
+  {
+    name: 'Otro',
+    price: 100,
+    description: 'otro producto'
+  }
 ];
 
 
