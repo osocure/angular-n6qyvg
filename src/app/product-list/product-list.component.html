@@ -12,14 +12,11 @@
     Description: {{ product.description }}
   </p>
 
-  <button (click)="share()">
-    Compartir
-  </button>
-
+  
+  <button (click)="share()"> Compartir </button>
   <!-- Componente alerta precio -->
- <app-product-alerts [product]="product" (notify)="onNotify()" (fa)="onFa()"> </app-product-alerts>
-
-  <!-- span (click)="compartir()"> Compartir </span -->
+  <app-product-alerts [product]="product" (notify)="onNotify()" (fa)="onFa()"> </app-product-alerts>
+    
 
 </div>
 
